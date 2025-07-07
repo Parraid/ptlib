@@ -1127,8 +1127,9 @@ dnl contains a AC_CHECK_HEADER directive that never gets used. So we have
 dnl to ensure that it is always called
 
 dnl MSWIN_DISPLAY    openssl,Open SSL
-dnl MSWIN_CHECK_FILE openssl,inc32\openssl\ssl.h,P_OSSL=1
+dnl MSWIN_CHECK_FILE openssl,include\openssl\provider.h,P_OSSL=3
 dnl MSWIN_CHECK_FILE openssl,include\openssl\ssl.h,P_OSSL=2
+dnl MSWIN_CHECK_FILE openssl,inc32\openssl\ssl.h,P_OSSL=1
 dnl MSWIN_FIND_FILE  openssl,P_OSSL_AES,aes.h,...
 dnl MSWIN_DIR_SYMBOL openssl,SSL_DIR
 dnl MSWIN_CHECK_DIR  openssl,..\openssl\
